@@ -6,7 +6,7 @@ body{
 
 }
 
-/* header */
+/* estilos que se dio al header */
 .contenedor-header{
     display: flex;
     align-items: center;
@@ -15,16 +15,16 @@ body{
     width: auto;
     border-radius: 10px;
     margin-bottom: 1rem;
-}
+} /* se dio el color altura y estilo de bordes a la navegacion */
 .logo {
     justify-content: start;
     margin-left: 2rem;
     padding: 1rem;
-}
+} /* estilo general el contenido de la navegacion */
 .contenido-header {
     margin-left: 62rem;
     color: white;
-}
+} /* espacio entre AMD y Threadripper */
 .texto {
     color: white;
 }
@@ -32,12 +32,12 @@ body{
     font-weight: 900;
     text-transform: uppercase;
     font-size: xxx-large;
-}
+}/* estilo de la palabra AMD */
 .texto-nombre {
     font-style: oblique;
     font-weight: 400;
     font-size: x-large;
-}
+}/* estilo de la palabra Threadripper */
 
 /* Cuerpo */
 .ilustracion {  display: grid;
@@ -51,7 +51,7 @@ body{
     background-image: linear-gradient(62deg, #3f3f48 0%, #494251 100%);
     border-radius: 10px;
     justify-content: space-around;
-}  
+}/* Fondo y se agrego css grid para la imagen y el texto */
 .text { 
     grid-area: text;
     padding-left: 1rem;
@@ -60,7 +60,7 @@ body{
     font-size: xx-large;
     font-weight: 900;
     color: white;
-}
+}/* Estilo del titulo */
 .subtitulo {
     font-size: large;
     font-weight: 700;
@@ -70,7 +70,7 @@ body{
     font-size: medium;
     font-weight: 400;
     color: white;
-}
+} /* estilos de los subtitulos */
 .image
 .img { 
     grid-area: image;
@@ -79,5 +79,5 @@ body{
     padding: 1rem;
     margin-left: 20rem;
     border-radius: 5px;
-}
+} /* se estilo el tamaño de la imagen */
   
