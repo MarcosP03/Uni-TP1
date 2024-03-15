@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THREADRIPPERR</title>
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+    h1,p {
+        color: aliceblue;
+    }
+</style>
+<body>
+    <h1>Procesadores AMD Ryzen™ Threadripper™</h1>
+    <p>
+        Diseña. Crea. Acelera. En el mejor procesador para workstations
+        Deja que los procesadores AMD Ryzen™ Threadripper™ sean el motor productivo de tu próxima workstation profesional.</p>
+        
+    
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat architecto vel officiis, doloribus quae vitae perferendis ex accusantium dolor nisi. Recusandae possimus dicta dignissimos aspernatur ducimus beatae animi nihil alias?</p>
+</body>
+</html>

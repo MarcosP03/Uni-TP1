@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app.css">
+    <title>Procesadores AMD Ryzen™ Threadripper™</title>
+</head>
+<body>
+    <h1>Procesadores AMD Ryzen™ Threadripper™</h1>
+    <p><img src="man_using_computer.jpg" alt="Hombre usando una computadora"></p>
+    <p>Diseña. Crea. Acelera. En el mejor procesador para workstations. Deja que los procesadores AMD Ryzen™ Threadripper™ sean el motor productivo de tu próxima workstation profesional.</p>
+
+    <h2>PROCESADORES AMD RYZEN™ THREADRIPPER™</h2>
+    <p>AMD Threadripper PRO - Acelera tu visión creativa. Los procesadores AMD Ryzen™ Threadripper™ PRO ofrecen rendimiento y capacidad preparados para todo a fin de que los artistas, arquitectos e ingenieros puedan hacer más en menos tiempo.</p>
+
+    <h3>Tecnología</h3>
+    <p>Se basa en la arquitectura líder Zen 4, por lo que la potencia, el rendimiento, la capacidad de expansión y la eficiencia están al alcance de tu mano. Los procesadores AMD Ryzen™ Threadripper™ permiten que los artistas, arquitectos e ingenieros disfruten de su flujo creativo sin interrupciones, ya que abordan los cuellos de botella comunes con pocos y muchos subprocesos.</p>
+
+    <h3>¿Cuál es la plataforma AMD Threadripper™ adecuada para mis necesidades?</h3>
+    <p>Escoge el chipset AMD TRX50 para obtener un rendimiento enfocado y completo con hasta 80 carriles PCIe y memoria de 4 canales, o elige el chipset AMD WRX90 para disfrutar de la mejor capacidad de expansión de PCIe® 5.0, memoria de 8 canales, además de seguridad y manejabilidad de clase empresarial.</p>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>Plataforma AMD WRX90</th>
+                <th>Plataforma AMD TRX50</th>
+            </tr>
+            <tr>
+                <td>Funciones de manejabilidad PRO</td>
+                <td>✓</td>
+            </tr>
+            <tr>
+                <td>Funciones de seguridad PRO</td>
+                <td>✓</td>
+            </tr>
+            <tr>
+                <td>Admite overclocking</td>
+                <td>✓</td>
+                <td>✓</td>
+            </tr>
+            <tr>
+                <td>Carriles PCIe® (en total/utilizables)</td>
+                <td>148/144 (con hasta 128 de PCIe® 5.0)</td>
+                <td>92/88 (con hasta 48 de PCIe® 5.0)</td>
+            </tr>
+            <tr>
+                <td>Configuración de memoria</td>
+                <td>8 canales, hasta 2 TB (RDIMM con capacidad de overclocking)</td>
+                <td>4 canales, hasta 1 TB (RDIMM con capacidad de overclocking)</td>
+            </tr>
+            <tr>
+                <td>Compatibilidad del procesador</td>
+                <td>Procesadores AMD Ryzen™ Threadripper™ PRO Serie WX 7000</td>
+                <td>Procesadores AMD Ryzen™ Threadripper™ Serie 7000</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Procesadores AMD Ryzen™ Threadripper™ PRO Serie WX 7000</td>
+            </tr>
+        </table>
+    
+        <div class="parent">
+            <div>
+                <th></th>
+                <p>Funciones de manejabilidad</p>
+                <p>Funciones de seguridad</p>
+                <p>Admite </p>
+                <p>Carriles</p>
+                <p>Configuración</p>
+                <p>Compatibilidad</p>
+            </div>
+            <div class="tabla">
+                <h3>Plataforma AMD WRX90</h3>
+                <p>✓</p>
+                <p>✓</p>
+                <p>✓</p>
+            </div>
+            <h3>Plataforma AMD TRX50</h3>
+        </div>
+    
+
+    <footer>
+        <p>Derechos de autor © 2024. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
