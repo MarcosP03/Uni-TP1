@@ -49,11 +49,13 @@ body{
     background-color: #3f3f48;
     background-image: linear-gradient(62deg, #3f3f48 0%, #494251 100%);
     border-radius: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: auto;
+    margin: 0 5rem 0 5rem;
 }/* Fondo y se agrego css grid para la imagen y el texto */
 .text { 
     grid-area: text;
-    padding-left: 1rem;
+    padding-left: 4rem;
 }
 .titulo {
     font-size: xx-large;
@@ -76,7 +78,30 @@ body{
     width: 30rem;
     height: 15rem;
     padding: 1rem;
-    margin-left: 20rem;
     border-radius: 5px;
 } /* se estilo el tamaño de la imagen */
-  
+.informacion-image {
+    background-image: url(/img/tech.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.informacion {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    justify-content: inherit;
+    gap: 10px;
+}
+.info-title {
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+.info-text {
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+}
