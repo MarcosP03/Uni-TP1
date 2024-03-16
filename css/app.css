@@ -17,11 +17,10 @@ body{
 } /* se dio el color altura y estilo de bordes a la navegacion */
 .logo {
     justify-content: start;
-    margin-left: 2rem;
     padding: 1rem;
 } /* estilo general el contenido de la navegacion */
 .contenido-header {
-    margin-left: 62rem;
+    margin-left: 3rem;
     color: white;
 } /* espacio entre AMD y Threadripper */
 .texto {
@@ -39,23 +38,16 @@ body{
 }/* estilo de la palabra Threadripper */
 
 /* Cuerpo */
-.ilustracion {  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "text image";
+.ilustracion {
+    display: block;
     background-color: #3f3f48;
     background-image: linear-gradient(62deg, #3f3f48 0%, #494251 100%);
     border-radius: 10px;
-    justify-content: space-between;
-    align-items: auto;
-    margin: 0 5rem 0 5rem;
+    
 }/* Fondo y se agrego css grid para la imagen y el texto */
 .text { 
     grid-area: text;
-    padding-left: 4rem;
+    padding: 1rem;
 }
 .titulo {
     font-size: xx-large;
@@ -73,22 +65,115 @@ body{
     color: white;
 } /* estilos de los subtitulos */
 .image
-.img { 
+.img {
+    width: 19.5rem;
+    padding: 1rem;
+} /* se estilo el tamaño de la imagen */
+@media (min-width: 768px) {
+    .ilustracion {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "text image";
+        background-color: #3f3f48;
+        background-image: linear-gradient(62deg, #3f3f48 0%, #494251 100%);
+        border-radius: 10px;
+        justify-content: space-between;
+        align-items: auto;
+        margin: 0 5rem 0 5rem;
+    }
+    .image,
+    .img {
     grid-area: image;
     width: 30rem;
     height: 15rem;
     padding: 1rem;
     border-radius: 5px;
-} /* se estilo el tamaño de la imagen */
+    }
+    .texto-nombre {
+        margin-left: 55rem;
+    }
+    .text { 
+        grid-area: text;
+        padding-left: 4rem;
+    }
+    .informacion {
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        justify-content: inherit;
+        gap: 10px;
+    }
+    .info-title {
+        align-items: center;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .info-text {
+        align-items: center;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .informacion-image {
+        background-size: 100%;
+    }
+}
+@media (min-whidth: 420px) {
+    .contenido-header {
+        margin-left: 7rem;
+        color: white;
+    } /* espacio entre AMD y Threadripper */
+    .ilustracion {
+        display: block;
+        background-color: #3f3f48;
+        background-image: linear-gradient(62deg, #3f3f48 0%, #494251 100%);
+        border-radius: 10px;
+        
+    }/* Fondo y se agrego css grid para la imagen y el texto */
+    .image
+    .img {
+        width: 23rem;
+        padding: 1rem;
+    } /* se estilo el tamaño de la imagen */
+    .informacion-image {
+        background-image: url(/img/tech.jpg);
+        background-repeat: no-repeat;
+    }
+    .informacion {
+        color: white;
+        display: block;
+        
+        padding: 1rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        justify-content: inherit;
+        gap: 10px;
+    }
+    .info-title {
+        align-items: center;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .info-text {
+        align-items: center;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
 .informacion-image {
     background-image: url(/img/tech.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
 }
 .informacion {
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: block;
+    
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 1rem;
